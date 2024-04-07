@@ -2,8 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: vprodb
-labels:
-  app: vprodb
+  labels:
+    app: vprodb
 spec:
   selector:
     matchLabels:
