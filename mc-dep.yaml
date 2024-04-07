@@ -23,4 +23,4 @@ spec:
         #     cpu: "500m"
         ports:
         - name: vpromc-port
-        - containerPort: 11211
+          containerPort: 11211
